@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 250px; /* Adjust as needed */
+    max-width: 100%; /* Ensure the logo is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 2px;
+    margin-left: 45px;
+  }
+  
+  .contact-info {
+    font-size: 18px; /* Adjust as needed */
+    text-align: center; /* Ensure the text is centered */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the text */
+  }
+  
+  .contact-info p {
+    margin: 5px 0; /* Spacing between rows */
+  }
+  
+  .contact-info a {
+    color: white; /* Keep links white */
+    text-decoration: none; /* Remove underline from links */
+    border-bottom: 2px solid transparent; /* Create space for underline */
+    transition: border-bottom-color 0.3s; /* Smooth transition for underline */
+  }
+  
+  .contact-info a:hover,
+  .contact-info a:focus {
+    border-bottom-color: white; /* Add white underline on hover or focus */
+  }
+  
